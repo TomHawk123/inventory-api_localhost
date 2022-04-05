@@ -1,0 +1,313 @@
+{
+  "users": [
+    {
+      "name": "Maggie",
+      "address": "111 Address Cove",
+      "phone": "555-420-6969",
+      "email": "sugarbritches@wifey.com",
+      "admin": true,
+      "id": 1
+    },
+    {
+      "name": "Bonnie",
+      "address": "122 Highlander Ave",
+      "phone": "555-555-5555",
+      "email": "bonnie@wee-lass.com",
+      "admin": false,
+      "id": 3
+    },
+    {
+      "name": "Boots",
+      "address": "1412 Colorado Ranch Dr",
+      "phone": "555-555-5599",
+      "email": "perro@boots.com",
+      "admin": false,
+      "id": 4
+    },
+    {
+      "name": "Keith",
+      "address": "123 Eat My Shorts Ave",
+      "phone": "555-123-1234",
+      "email": "keith@keith.com",
+      "admin": false,
+      "id": 5
+    },
+    {
+      "name": "Darla",
+      "address": "PO Box GFY",
+      "phone": "5555555555",
+      "email": "darla@darla.com",
+      "admin": true,
+      "id": 6
+    }
+  ],
+  "inventories": [
+    {
+      "name": "10 x 10 ft.",
+      "userId": 1,
+      "typeId": 2,
+      "quantity": 3,
+      "picture": "https://cdn.bannerbuzz.com/media/catalog/product/resize/560/w/h/white-canopy-tent-4_1_1.jpg",
+      "id": 1
+    },
+    {
+      "name": "6 ft.",
+      "userId": 1,
+      "typeId": 1,
+      "quantity": 5,
+      "picture": "https://m.media-amazon.com/images/I/31X7IM0x8bL._AC_.jpg",
+      "id": 2
+    },
+    {
+      "name": "Stand-alone",
+      "userId": 1,
+      "typeId": 3,
+      "quantity": 4,
+      "picture": "https://cdn.shopify.com/s/files/1/1039/1662/products/avfi-podiums-pd3003-2_1_1024x1024.jpg?v=1625102535",
+      "id": 3
+    },
+    {
+      "name": "Pop-up",
+      "userId": 1,
+      "typeId": 3,
+      "quantity": 4,
+      "picture": "https://static.commerceplatform.services/images/zoom/6lpbktbk.rw_thumb.jpg",
+      "id": 4
+    },
+    {
+      "name": "4 ft.",
+      "userId": 1,
+      "typeId": 1,
+      "quantity": 3,
+      "picture": "https://cdnimg.webstaurantstore.com/images/products/large/524108/1966889.jpg",
+      "id": 5
+    },
+    {
+      "name": "2x2 ft. floor tiles",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 20,
+      "picture": "https://mobileimages.lowes.com/productimages/947ced42-6612-452d-ba1e-2c5c8b799af5/05044401.jpg?size=pdhism",
+      "id": 6
+    },
+    {
+      "name": "Tent weight",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 4,
+      "picture": "https://static.commerceplatform.services/images/zoom/wghsan.rw_thumb.jpg",
+      "id": 7
+    },
+    {
+      "name": "Stress mat",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 3,
+      "picture": "https://cdn.shopify.com/s/files/1/1728/2157/products/large_3cf05cb7-03cf-42d8-93f4-873c40cfb2a1.jpg?v=1523293772",
+      "id": 8
+    },
+    {
+      "name": "Heavy duty cart",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 2,
+      "picture": "https://pyxis.nymag.com/v1/imgs/b86/01c/01dc5c0c4f34e63a8bb77f2362fdbcc050.jpg",
+      "id": 9
+    },
+    {
+      "name": "Connect 4",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 0,
+      "picture": "https://i5.walmartimages.com/asr/d07a8059-e3dd-4eeb-98a4-d154a5eaadd2.685f51f7a689dec02eeb4b0ecbd7ba1b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "id": 10
+    },
+    {
+      "name": "Plinko",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 1,
+      "picture": "https://www.promotionstore.com/ws/ws.dll/QPic?SN=67384&P=552830590&PX=400&I=2",
+      "id": 11
+    },
+    {
+      "name": "Cornhole",
+      "userId": 1,
+      "typeId": 4,
+      "quantity": 1,
+      "picture": "https://dks.scene7.com/is/image/GolfGalaxy/19EQQU2X4CRNHLBRDSTG_Wood?qlt=70&wid=1100&fmt=webp",
+      "id": 12
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "nameOfType": "table"
+    },
+    {
+      "id": 2,
+      "nameOfType": "tent"
+    },
+    {
+      "id": 3,
+      "nameOfType": "podium"
+    },
+    {
+      "id": 4,
+      "nameOfType": "misc."
+    }
+  ],
+  "masterRecord": [],
+  "userInventory": [
+    {
+      "inventoryId": 6,
+      "userId": 1,
+      "timestamp": 1649090219309,
+      "id": 1
+    },
+    {
+      "inventoryId": 5,
+      "userId": 1,
+      "timestamp": 1649090238602,
+      "id": 2
+    },
+    {
+      "inventoryId": 3,
+      "userId": 1,
+      "timestamp": 1649090246285,
+      "id": 3
+    },
+    {
+      "inventoryId": 1,
+      "userId": 1,
+      "timestamp": 1649090254288,
+      "id": 4
+    },
+    {
+      "inventoryId": 2,
+      "userId": 1,
+      "timestamp": 1649090260465,
+      "id": 5
+    },
+    {
+      "inventoryId": 5,
+      "userId": 1,
+      "timestamp": 1649090267694,
+      "id": 6
+    },
+    {
+      "inventoryId": 3,
+      "userId": 1,
+      "timestamp": 1649090302211,
+      "id": 7
+    },
+    {
+      "inventoryId": 4,
+      "userId": 1,
+      "timestamp": 1649090308724,
+      "id": 8
+    },
+    {
+      "inventoryId": 6,
+      "userId": 1,
+      "timestamp": 1649092658572,
+      "id": 9
+    },
+    {
+      "inventoryId": 10,
+      "userId": 1,
+      "timestamp": 1649092670506,
+      "id": 10
+    },
+    {
+      "inventoryId": 1,
+      "userId": 3,
+      "timestamp": 1649092858768,
+      "id": 11
+    },
+    {
+      "inventoryId": 2,
+      "userId": 3,
+      "timestamp": 1649092859706,
+      "id": 12
+    },
+    {
+      "inventoryId": 4,
+      "userId": 3,
+      "timestamp": 1649092862167,
+      "id": 13
+    },
+    {
+      "inventoryId": 4,
+      "userId": 3,
+      "timestamp": 1649092862577,
+      "id": 14
+    },
+    {
+      "inventoryId": 8,
+      "userId": 3,
+      "timestamp": 1649092866510,
+      "id": 15
+    },
+    {
+      "inventoryId": 7,
+      "userId": 3,
+      "timestamp": 1649092873918,
+      "id": 16
+    },
+    {
+      "inventoryId": 7,
+      "userId": 3,
+      "timestamp": 1649092874158,
+      "id": 17
+    },
+    {
+      "inventoryId": 7,
+      "userId": 3,
+      "timestamp": 1649092874381,
+      "id": 18
+    },
+    {
+      "inventoryId": 7,
+      "userId": 3,
+      "timestamp": 1649092874560,
+      "id": 19
+    },
+    {
+      "inventoryId": 3,
+      "userId": 5,
+      "timestamp": 1649092902546,
+      "id": 20
+    },
+    {
+      "inventoryId": 8,
+      "userId": 5,
+      "timestamp": 1649092903529,
+      "id": 21
+    },
+    {
+      "inventoryId": 3,
+      "userId": 6,
+      "timestamp": 1649092923998,
+      "id": 22
+    },
+    {
+      "inventoryId": 8,
+      "userId": 6,
+      "timestamp": 1649092924738,
+      "id": 23
+    },
+    {
+      "inventoryId": 3,
+      "userId": 4,
+      "timestamp": 1649092963562,
+      "id": 24
+    },
+    {
+      "inventoryId": 8,
+      "userId": 4,
+      "timestamp": 1649092964361,
+      "id": 25
+    }
+  ]
+}
